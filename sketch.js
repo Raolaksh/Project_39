@@ -85,6 +85,7 @@ function draw() {
 
   background(bg);
   //displaying score
+  textSize(20);
   text("Score: "+ score, 500,50);
   
 if (gameState === 2){
